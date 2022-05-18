@@ -23,6 +23,12 @@ namespace Calculator
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        public void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
